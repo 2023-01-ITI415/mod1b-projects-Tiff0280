@@ -318,6 +318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33323b0e9e4ea6e4389dfa12c8a303ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 10
+  chanceToChangeDirection: 0.1
+  secondsBetweenAppleDrop: 1
 --- !u!1001 &2520478823110194736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -339,7 +344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2520478823879393229, guid: 9d4b422406628944280ca4b792e9c2f7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2520478823879393229, guid: 9d4b422406628944280ca4b792e9c2f7, type: 3}
       propertyPath: m_LocalPosition.z
