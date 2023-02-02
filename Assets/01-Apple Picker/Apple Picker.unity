@@ -411,7 +411,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -644,8 +644,8 @@ MonoBehaviour:
   applePrefab: {fileID: 4006794590970154159, guid: 9fbf8cf51464f804088674d439bca2cb, type: 3}
   speed: 10
   leftAndRightEdge: 20
-  chanceToChangeDirection: 0.1
-  secondsBetweenAppleDrop: 1
+  chanceToChangeDirections: 0.1
+  secondsBetweenAppleDrops: 1
 --- !u!1 &2026785858
 GameObject:
   m_ObjectHideFlags: 0
