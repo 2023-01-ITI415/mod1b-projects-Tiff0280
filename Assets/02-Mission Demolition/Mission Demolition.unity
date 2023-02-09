@@ -407,6 +407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589127741}
   - component: {fileID: 589127742}
+  - component: {fileID: 589127743}
   m_Layer: 0
   m_Name: ProjectileLine
   m_TagString: Untagged
@@ -537,6 +538,18 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &589127743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589127740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02201618f07a9034bb547748a6e139bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &749464890
 GameObject:
   m_ObjectHideFlags: 0
