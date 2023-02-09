@@ -20,11 +20,30 @@ public class FollowCam : MonoBehaviour
  
     void FixedUpdate()
     {
-        // A single-line if statement doesn’t require braces
-        if (POI == null) return; // if there is no POI, then return          
+        //-- A single-line if statement doesn’t require braces
+        //-- if (POI == null) return; // if there is no POI, then return          
+        //--
+        //-- Get the position of the poi
+        //-- Vector3 destination = POI.transform.position;
 
-        // Get the position of the poi
-        Vector3 destination = POI.transform.position;
+        Vector3 destination = Vector3.zero;                                
+   
+        if (POI != null)
+        {                                                 
+            // If the POI has a Rigidbody, check to see if it is sleeping
+            Rigidbody poiRigid = POI.GetComponent<Rigidbody>();
+            if ((poiRigid != null) && poiRigid.IsSleeping())
+            {           
+                POI = null;
+            }
+        }
+
+        if (POI != null)
+        {                                                 
+            destination = POI.transform.position;
+        }
+
+
         // Limit the minimum values of destination.x & destination.y
         destination.x = Mathf.Max(minXY.x, destination.x);
         destination.y = Mathf.Max(minXY.y, destination.y);
