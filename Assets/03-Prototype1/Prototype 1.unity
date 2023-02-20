@@ -540,7 +540,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easing: 0.05
   minXY: {x: 0, y: 0}
+  viewBothGO: {fileID: 644218502}
   camZ: 0
+  nextView: 1
 --- !u!114 &749464895
 MonoBehaviour:
   m_ObjectHideFlags: 0
