@@ -523,8 +523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uitLevel: {fileID: 0}
-  uitShots: {fileID: 0}
-  castlePos: {x: 0, y: 0, z: 0}
+  uitShots: {fileID: 476130537}
+  castlePos: {x: 50, y: -9.5, z: 0}
   castles: []
   level: 0
   levelMax: 0
