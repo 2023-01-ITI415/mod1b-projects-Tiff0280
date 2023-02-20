@@ -88,7 +88,8 @@ public class P1Slingshot : MonoBehaviour
             FollowCam.POI = projectile; // Set the _MainCamera POI
             // Add a ProjectileLine to the Projectile
             Instantiate<GameObject>(projLinePrefab, projectile.transform);
-            projectile = null;                                               
+            projectile = null;
+            P1MissionDemolition.SHOT_FIRED();
         }
     }
 
