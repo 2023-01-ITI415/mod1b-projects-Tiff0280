@@ -68,10 +68,10 @@ public class P1FollowCam : MonoBehaviour
             POI = null;
             nextView = eView.castle;
             break;
-            case eView.castle:
-            POI = MissionDemolition.GET_CASTLE();                        
-            nextView = eView.both;
-            break;
+            //case eView.castle:
+            //POI = P1MissionDemolition.GET_CASTLE();                        
+            //nextView = eView.both;
+            //break;
             case eView.both:
             POI = viewBothGO;
             nextView = eView.slingshot;

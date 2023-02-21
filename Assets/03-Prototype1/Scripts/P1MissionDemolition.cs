@@ -32,7 +32,7 @@ public class P1MissionDemolition : MonoBehaviour
     {
         S = this; // Define the Singleton                                  
     
-        level = 0;
+        //level = 0;
         shotsTaken = 0;
         levelMax = castles.Length;
         StartLevel();
@@ -50,8 +50,8 @@ public class P1MissionDemolition : MonoBehaviour
         Projectile.DESTROY_PROJECTILES(); // This will be underlined in red  // d
 
         // Instantiate the new castle
-        castle = Instantiate<GameObject>(castles[level]);
-        castle.transform.position = castlePos;
+        //castle = Instantiate<GameObject>(castles[level]);
+        //castle.transform.position = castlePos;
 
         // Reset the goal
         Goal.goalMet = false;
