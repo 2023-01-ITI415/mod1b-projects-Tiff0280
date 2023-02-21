@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 749464891}
   - component: {fileID: 749464894}
   - component: {fileID: 749464895}
+  - component: {fileID: 749464896}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -565,6 +566,22 @@ MonoBehaviour:
   castle: {fileID: 0}
   mode: 0
   showing: Show Slingshot
+--- !u!114 &749464896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749464890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b853846292df355458f658c4fceba8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 7476165350572860352, guid: 4db089ab4939d7449bb727bb2bd27ebb, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1 &842789519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,7 +1464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6709549401487559423, guid: 5c1579976c51baa428a82b03c322bead, type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c1579976c51baa428a82b03c322bead, type: 3}
