@@ -23,7 +23,7 @@ public class P1Basket : MonoBehaviour
             Destroy(collidedWith);
             // Increase the score
             scoreCounter.score += 100;
-            HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
+            P1HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
         }
     }
 }
