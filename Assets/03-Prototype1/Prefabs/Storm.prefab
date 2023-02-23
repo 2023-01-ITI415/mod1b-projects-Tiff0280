@@ -318,7 +318,7 @@ Transform:
   m_GameObject: {fileID: 8613446682937977748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8613446683433965015}
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71154deba41fa0a48ba42d6b4c670a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rainPrefab: {fileID: 0}
+  rainPrefab: {fileID: 4147929049753218709, guid: 1350be1de78b43e418e08f26683cc986, type: 3}
   speed: 5
   leftAndRightEdge: 10
   changeDirChance: 0.02

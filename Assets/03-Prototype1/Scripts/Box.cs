@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void OnCollisionEnter(Collision coll)
+    {                             // a
+        // Find out what hit this basket
+        GameObject collidedWith = coll.gameObject;                        
+        if (collidedWith.CompareTag("Rain"))
+        {                         // c
+            Destroy(collidedWith);
+        }
     }
 }
