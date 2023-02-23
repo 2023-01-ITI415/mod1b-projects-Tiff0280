@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4147929049753218711}
   - component: {fileID: 4147929049753218708}
   - component: {fileID: 4147929049753218704}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Rain
   m_TagString: Rain
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8613446682042411851}
   - component: {fileID: 8613446682042411844}
   - component: {fileID: 8613446682042411845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 8613446682507670358}
   - component: {fileID: 8613446682507670359}
   - component: {fileID: 8613446682507670352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 8613446682655574644}
   - component: {fileID: 8613446682655574645}
   - component: {fileID: 8613446682655574646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 8613446682937977755}
   - component: {fileID: 8613446682937977754}
   - component: {fileID: -3562609000703404090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Storm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 8613446683277456718}
   - component: {fileID: 8613446683277456719}
   - component: {fileID: 8613446683277456712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 8613446683315112779}
   - component: {fileID: 8613446683315112772}
   - component: {fileID: 8613446683315112773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 8613446683329500040}
   - component: {fileID: 8613446683329500041}
   - component: {fileID: 8613446683329500042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +669,7 @@ GameObject:
   - component: {fileID: 8613446683433965012}
   - component: {fileID: 8613446683433965013}
   - component: {fileID: 8613446683433965014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   - component: {fileID: 8613446683715530272}
   - component: {fileID: 8613446683715530273}
   - component: {fileID: 8613446683715530274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 8613446683822263368}
   - component: {fileID: 8613446683822263369}
   - component: {fileID: 8613446683822263370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
