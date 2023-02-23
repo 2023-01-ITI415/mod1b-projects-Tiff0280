@@ -361,6 +361,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71154deba41fa0a48ba42d6b4c670a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rainPrefab: {fileID: 0}
+  speed: 5
+  leftAndRightEdge: 10
+  changeDirChance: 0.1
+  rainDropDelay: 1
 --- !u!1 &8613446683277456714
 GameObject:
   m_ObjectHideFlags: 0
