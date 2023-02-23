@@ -42,9 +42,18 @@ public class Storm : MonoBehaviour
         {
             speed = -Mathf.Abs(speed);  // Move left                           
         }
-        else if (Random.value < changeDirChance)
-        {
-            speed *= -1;  // Change direction 
+        // else if (Random.value < changeDirChance)
+        //{
+        // speed *= -1;  // Change direction 
+        //}
+    }
+
+    void FixedUpdate()
+    {                                               
+        // Random direction changes are now time-based due to FixedUpdate()
+        if (Random.value < changeDirChance)
+        {                        
+            speed *= -1; // Change direction 
         }
     }
 }

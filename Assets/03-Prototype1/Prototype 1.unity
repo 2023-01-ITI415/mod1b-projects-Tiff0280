@@ -473,6 +473,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3562609000703404090, guid: 7725431b512c52242aa44a28eb2dd813, type: 3}
+      propertyPath: rainPrefab
+      value: 
+      objectReference: {fileID: 4147929049753218709, guid: 1350be1de78b43e418e08f26683cc986, type: 3}
+    - target: {fileID: -3562609000703404090, guid: 7725431b512c52242aa44a28eb2dd813, type: 3}
       propertyPath: changeDirChance
       value: 0.02
       objectReference: {fileID: 0}
