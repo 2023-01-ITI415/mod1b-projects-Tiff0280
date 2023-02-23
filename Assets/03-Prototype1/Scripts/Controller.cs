@@ -21,4 +21,12 @@ public class Controller : MonoBehaviour
         Vec.z += Input.GetAxis("Vertical") * Time.deltaTime * 20;
         transform.localPosition = Vec;
     }
-}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Diamond"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
+} 
