@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rain : MonoBehaviour
 {
-    public static float bottomY = -20f;
+    public static float bottomY = -9f;
 
     void Update()
     {
