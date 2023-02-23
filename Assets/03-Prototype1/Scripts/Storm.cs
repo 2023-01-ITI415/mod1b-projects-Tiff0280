@@ -23,7 +23,15 @@ public class Storm : MonoBehaviour
 
     void Start()
     {
-        // Start dropping rain                                       
+        // Start dropping rain
+        Invoke("DropRain", 2f);                                    
+    }
+
+    void DropRain()
+    {                                                    
+        GameObject rain = Instantiate<GameObject>(rainPrefab);      
+        rain.transform.position = transform.position;                   
+        Invoke("DropRain", rainDropDelay);                           
     }
 
     void Update()
