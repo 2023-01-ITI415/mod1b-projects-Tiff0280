@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 8613446682937977755}
   - component: {fileID: 8613446682937977754}
   m_Layer: 0
-  m_Name: Cloud
+  m_Name: Storm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
