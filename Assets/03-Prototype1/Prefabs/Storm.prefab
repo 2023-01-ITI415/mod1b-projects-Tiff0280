@@ -364,7 +364,7 @@ MonoBehaviour:
   rainPrefab: {fileID: 0}
   speed: 5
   leftAndRightEdge: 10
-  changeDirChance: 0.1
+  changeDirChance: 0.02
   rainDropDelay: 1
 --- !u!1 &8613446683277456714
 GameObject:

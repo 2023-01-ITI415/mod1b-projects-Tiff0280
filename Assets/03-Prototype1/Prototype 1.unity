@@ -472,6 +472,10 @@ PrefabInstance:
       propertyPath: speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: -3562609000703404090, guid: 7725431b512c52242aa44a28eb2dd813, type: 3}
+      propertyPath: changeDirChance
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 8613446682937977748, guid: 7725431b512c52242aa44a28eb2dd813, type: 3}
       propertyPath: m_Name
       value: Storm
