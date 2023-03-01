@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
+
+
     void OnCollisionEnter(Collision coll)
     {                             // a
         // Find out what hit this basket
@@ -13,4 +15,5 @@ public class Box : MonoBehaviour
             Destroy(collidedWith);
         }
     }
+
 }
