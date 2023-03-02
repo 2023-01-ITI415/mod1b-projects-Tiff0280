@@ -5,7 +5,8 @@ using UnityEngine;
 public class Box : MonoBehaviour
 {
 
-    public CurrentScore currentScore;                               
+    public CurrentScore currentScore;
+    public GameObject box;
 
     void Start()
     {
@@ -42,5 +43,7 @@ public class Box : MonoBehaviour
             HighestScore.TRY_SET_HIGH_SCORE(currentScore.score);
         }
     }
+
+
 
 }
