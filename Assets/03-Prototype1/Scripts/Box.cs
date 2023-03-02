@@ -5,14 +5,35 @@ using UnityEngine;
 public class Box : MonoBehaviour
 {
 
+    public CurrentScore currentScore;                               
+
+    void Start()
+    {
+        // Find a GameObject named ScoreCounter in the Scene Hierarchy
+        GameObject scoreGO = GameObject.Find("CurrentScore");
+        // Get the ScoreCounter (Script) component of scoreGO
+        currentScore = scoreGO.GetComponent<CurrentScore>();           
+    }
 
     void OnCollisionEnter(Collision coll)
     {                             // a
         // Find out what hit this basket
-        GameObject collidedWith = coll.gameObject;                        
+        GameObject collidedWith = coll.gameObject;
         if (collidedWith.CompareTag("Rain"))
         {                         // c
             Destroy(collidedWith);
+            // Decrease the score
+            currentScore.score -= 100;
+        }
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Diamond"))
+        {
+            other.gameObject.SetActive(false);
+            currentScore.score += 100;
         }
     }
 
