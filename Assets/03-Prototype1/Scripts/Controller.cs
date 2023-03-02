@@ -5,11 +5,12 @@ using UnityEngine.InputSystem;
 
 public class Controller : MonoBehaviour
 {
+    private int count; 
     Vector3 Vec;
     // Start is called before the first frame update  
     void Start()
     {
-
+        count = 0;
     }
 
     // Update is called once per frame  
@@ -27,6 +28,7 @@ public class Controller : MonoBehaviour
         if (other.gameObject.CompareTag("Diamond"))
         {
             other.gameObject.SetActive(false);
+            count = count + 100; 
         }
     }
 } 
