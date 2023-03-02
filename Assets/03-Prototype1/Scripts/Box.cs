@@ -24,6 +24,11 @@ public class Box : MonoBehaviour
             Destroy(collidedWith);
             // Decrease the score
             currentScore.score -= 100;
+
+            // Get a reference to the ApplePicker component of Main Camera
+            StormDrop apScript = Camera.main.GetComponent<StormDrop>();           // b
+            // Call the public AppleMissed() method of apScript
+            apScript.RainCollected();
         }
 
     }

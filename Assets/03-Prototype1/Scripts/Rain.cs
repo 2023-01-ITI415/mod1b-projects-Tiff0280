@@ -11,6 +11,7 @@ public class Rain : MonoBehaviour
         if (transform.position.y < bottomY)
         {
             Destroy(this.gameObject);
+
         }
     }
 }
