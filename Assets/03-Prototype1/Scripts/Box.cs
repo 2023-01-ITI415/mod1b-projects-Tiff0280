@@ -39,6 +39,7 @@ public class Box : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             currentScore.score += 100;
+            HighestScore.TRY_SET_HIGH_SCORE(currentScore.score);
         }
     }
 
