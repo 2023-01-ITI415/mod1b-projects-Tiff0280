@@ -6,6 +6,13 @@ public class GoalHit : MonoBehaviour
 {
     // A static field accessible by code anywhere
     static public bool goalMet = false;
+    public GameObject winText;
+
+
+    void Start()
+    {
+        winText.SetActive(false);
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -21,6 +28,8 @@ public class GoalHit : MonoBehaviour
             Color c = mat.color;
             c.a = 0.75f;
             mat.color = c;
+            winText.SetActive(true);
+
         }
     }
 }
