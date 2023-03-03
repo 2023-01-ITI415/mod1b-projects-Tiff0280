@@ -5,16 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Scenes/SceneMain.unity
     guid: afc5006038216427399d86bb793f42d6
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Scenes/Main-ApplePicker.unity
     guid: a76078966e5564d698c1ed755489041f
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Scenes/Main-MissionDemolition.unity
     guid: 36a4f7af764a74bfab5a5ff20375bcdb
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Scenes/Main-Prototype 1.unity
     guid: 84930580229bb4f138179e160aab9b89
+  - enabled: 0
+    path: Assets/01-Apple Picker/Apple Picker.unity
+    guid: a98d596edbeb9cb4f9c6d010e9380f9d
+  - enabled: 0
+    path: Assets/02-Mission Demolition/Mission Demolition.unity
+    guid: 2de982d5235e36148a0b09b6fc7c53af
+  - enabled: 0
+    path: Assets/03-Prototype1/Prototype 1.unity
+    guid: 603e4c5bcfccf1a4db8b874f5f5f3ce2
   m_configObjects: {}
