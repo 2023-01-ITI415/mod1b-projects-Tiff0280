@@ -4,29 +4,13 @@ using UnityEngine;
 
 public class Cam : MonoBehaviour
 {
-    static public GameObject POI; // The static point of interest
+    public Transform target;
+    public int distance = -10;
 
-    public Vector2 minXY = Vector2.zero;
-
-    [Header("Dynamic")]
-    public float camZ; // The desired Z pos of the camera 
-
-    void Awake()
+    void Update()
     {
-        camZ = this.transform.position.z;
+        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, distance);
     }
 
-    void FixedUpdate()
-    {
-        // A single-line if statement doesn’t require braces
-        if (POI == null) return; // if there is no POI, then return           // b
-
-        // Get the position of the poi
-        Vector3 destination = POI.transform.position;
-        // Force destination.z to be camZ to keep the camera far enough away
-        destination.z = camZ;
-        // Set the camera to the destination
-        transform.position = destination;
-    }
 }
 

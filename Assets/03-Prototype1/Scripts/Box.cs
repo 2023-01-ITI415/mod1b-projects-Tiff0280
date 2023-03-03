@@ -6,14 +6,14 @@ public class Box : MonoBehaviour
 {
 
     public CurrentScore currentScore;
-    public GameObject box;
 
     void Start()
     {
         // Find a GameObject named ScoreCounter in the Scene Hierarchy
         GameObject scoreGO = GameObject.Find("CurrentScore");
         // Get the ScoreCounter (Script) component of scoreGO
-        currentScore = scoreGO.GetComponent<CurrentScore>();           
+        currentScore = scoreGO.GetComponent<CurrentScore>();
+        
     }
 
     void OnCollisionEnter(Collision coll)
