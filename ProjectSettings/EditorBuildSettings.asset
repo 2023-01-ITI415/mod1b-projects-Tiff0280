@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/01-Apple Picker/Apple Picker.unity
     guid: a98d596edbeb9cb4f9c6d010e9380f9d
-  - enabled: 1
+  - enabled: 0
     path: Assets/02-Mission Demolition/Mission Demolition.unity
     guid: 2de982d5235e36148a0b09b6fc7c53af
+  - enabled: 1
+    path: Assets/03-Prototype1/Prototype 1.unity
+    guid: 603e4c5bcfccf1a4db8b874f5f5f3ce2
   m_configObjects: {}
